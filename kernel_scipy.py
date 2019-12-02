@@ -1,4 +1,4 @@
-#!/usr/bin/env  python2.7
+#!/home/dmerrell/envs/py27/bin/python2.7
 
 from numpy import genfromtxt, dot
 import sys

@@ -1,4 +1,4 @@
-#!/usr/local/bin/python2.7
+#!/home/dmerrell/envs/py27/bin/python2.7
 
 ###
 ### MakeKernel: Generate a heat diffusion kernel from .sif file

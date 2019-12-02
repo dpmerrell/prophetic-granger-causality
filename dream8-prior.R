@@ -11,7 +11,7 @@ pid2ker <- function()
         
         ## Convert a .pid to a .sif
         fn.pid <- paste( "prior-pid", fn, sep="/" )
-        cmd <- paste0( "./pid2sif.py < ", fn.pid, " > temp.sif" )
+        cmd <- paste0( "./pid2sif.py ", fn.pid, " > temp.sif" )
         system( cmd )
 
         ## Apply the diffusion kernel to the .sif
